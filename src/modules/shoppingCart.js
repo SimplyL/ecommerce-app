@@ -1,4 +1,6 @@
 const ADD = 'ecommerce-app/shoppingCart/ADD';
+const REMOVE = 'ecommerce-app/shoppingCart/REMOVE';
+const CLEAR = 'ecommerce-app/shoppingCart/CLEAR';
 
 const reducer = (state = [], action = {}) => {
   switch (action.type) {
@@ -25,12 +27,29 @@ const reducer = (state = [], action = {}) => {
 
       return items;
     }
+
+    case REMOVE: {
+      return state.filter(item => item.id !== action.payload);
+    }
+
+    case CLEAR: {
+      return [];
+    }
+
     default: return state;
   }
 }
 
 export const addProduct = payload => dispatch => (
   dispatch({ type: ADD, payload })
+);
+
+export const removeProduct = payload => dispatch => (
+  dispatch({ type: REMOVE, payload })
+);
+
+export const clearCart = payload => dispatch => (
+  dispatch({ type: CLEAR, payload })
 );
 
 export default reducer;

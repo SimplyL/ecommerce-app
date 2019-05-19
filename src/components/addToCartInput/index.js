@@ -3,17 +3,18 @@ import PropTypes from 'prop-types';
 
 import { connect } from 'react-redux';
 import { addProduct } from '../../modules/shoppingCart';
+import { AmountInput, AddButton, InputContainer } from './addToCartInput.styles';
 
-class AddToCartInput extends Component {
+export class AddToCartInput extends Component {
   state = {
     quantity: 1,
   };
 
   handleClick = () => {
     const { quantity } = this.state;
-    const { id } = this.props;
+    const { id, addProduct } = this.props;
 
-    this.props.addProduct({ id, quantity });
+    addProduct({ id, quantity });
   }
 
   handleChange = evt => this.setState({
@@ -24,14 +25,14 @@ class AddToCartInput extends Component {
     const { quantity } = this.state;
 
     return (
-      <>
-        <input
+      <InputContainer>
+        <AmountInput
           type="number"
           value={quantity}
           onChange={this.handleChange}
         />
-        <button onClick={this.handleClick}>Add to cart</button>
-      </>
+        <AddButton onClick={this.handleClick}>Add to cart</AddButton>
+      </InputContainer>
     );
   }
 };

@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Shopping cart page should render without crashing 1`] = `
+<Fragment>
+  <Title
+    name="Shopping cart"
+  />
+  <Container>
+    <ConnectFunction
+      key="0"
+      product={
+        Object {
+          "description": "Test description",
+          "id": "0",
+          "image": "roxy-sugar-banana.jpg",
+          "name": "Model",
+          "price": 4.99,
+        }
+      }
+      quantity={4}
+    />
+    <ConnectFunction
+      key="1"
+      product={
+        Object {
+          "description": "Test",
+          "id": "1",
+          "image": "gnu-fb-head.jpg",
+          "name": "Model",
+          "price": 49.99,
+        }
+      }
+      quantity={1}
+    />
+    <CheckoutContainer>
+      <PairContainer>
+        <Label>
+          Full price:
+        </Label>
+        <styled.span>
+          69.95
+           €
+        </styled.span>
+      </PairContainer>
+      <CheckoutButton
+        onClick={[MockFunction]}
+      >
+        Checkout
+      </CheckoutButton>
+    </CheckoutContainer>
+  </Container>
+</Fragment>
+`;

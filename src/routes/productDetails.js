@@ -1,28 +1,28 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { withRouter } from "react-router";
 import PropTypes from 'prop-types';
 
-import ProductItem from '../components/productItem';
-import AddToCartInput from '../components/addToCartInput';
+import ProductDescription from '../components/productItem/productDescription';
+import Title from '../components/title';
+import { PRODUCT_TYPE } from '../constants/types';
 
-class ProductDetails extends Component {
-  render() {
-    const { match: { params }, products } = this.props;
-    const product = products.find(item => params.id === item.id);
+export const ProductDetails = props => {
+  const { match: { params }, products } = props;
+  const product = products.find(item => params.id === item.id);
 
-    return (
-      <div>Product details page
-        <ProductItem product={product}/>
-        <AddToCartInput id={product.id} />
-      </div>
-    );
-  }
+  return (
+    <div>
+      <Title name="Product details" />
+      <ProductDescription product={product} />
+    </div>
+  );
 };
 
 ProductDetails.propTypes = {
   match: PropTypes.object.isRequired,
   location: PropTypes.object.isRequired,
   history: PropTypes.object.isRequired,
+  products: PropTypes.arrayOf(PRODUCT_TYPE).isRequired,
 }
 
 export default withRouter(ProductDetails);

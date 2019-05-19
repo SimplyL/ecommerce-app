@@ -1,44 +1,35 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import PropTypes from 'prop-types';
 
+import AddToCartInput from '../addToCartInput';
 import PATHS from '../../constants/paths';
-import { productType } from '../../constants/types';
+import { PRODUCT_TYPE } from '../../constants/types';
+import {
+  Container,
+  Image,
+  ImageContainer,
+  PriceLabel,
+  HyperLink,
+} from './productItem.styles';
 
-const ProductItem = ({ product, quantity, children }) => {
-  const { id, name, price, image, description } = product;
+const ProductItem = ({ product }) => {
+  const { id, name, price, image } = product;
 
   return (
-    <div>
-      <Link to={`${PATHS.product}/${id}`}>
-        Name: {name}
-      </Link>
-      <div>
-        Price: {price}
-      </div>
-      <div>
-        Image: {image}
-      </div>
-      <div>
-        Description: {description}
-      </div>
-      {quantity && (
-        <div>
-          Quantity: {quantity}
-        </div>
-      )}
-      {children}
-    </div>
+    <Container>
+      <ImageContainer>
+        <Image src={require(`images/${image}`)} alt="img" />
+      </ImageContainer>
+      <HyperLink to={`${PATHS.product}/${id}`}>
+        {name}
+      </HyperLink>
+      <PriceLabel>{price} &euro;</PriceLabel>
+      <AddToCartInput id={id}/>
+    </Container>
   );
 };
 
 ProductItem.propTypes = {
-  product: productType.isRequired,
-  quantity: PropTypes.number,
+  product: PRODUCT_TYPE.isRequired,
 };
-
-ProductItem.defaultProps = {
-  quantity: null,
-}
 
 export default ProductItem;

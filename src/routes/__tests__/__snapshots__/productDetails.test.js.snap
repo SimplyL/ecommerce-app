@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product details page should render without crashing 1`] = `
+<div>
+  <Title
+    name="Product details"
+  />
+  <ProductDescription
+    product={
+      Object {
+        "description": "Test description",
+        "id": "0",
+        "image": "roxy-sugar-banana.jpg",
+        "name": "Model",
+        "price": 4.99,
+      }
+    }
+  />
+</div>
+`;

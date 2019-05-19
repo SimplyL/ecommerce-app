@@ -3,84 +3,70 @@
     "id": "0",
     "name": "Model",
     "price": 4.99,
-    "image": "President and CEO",
+    "image": "roxy-sugar-banana.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam maximus leo dictum risus dapibus congue. Curabitur euismod tempus efficitur. Pellentesque ullamcorper ligula eget orci mattis congue. Vestibulum porta enim mauris, in tincidunt tellus placerat non. Aenean sagittis erat et convallis dignissim. Integer eget porttitor mauris, id vestibulum ex. Ut tempor orci in sodales vehicula. Praesent quam sapien, ornare non metus vitae, tristique rutrum neque. Curabitur id turpis et odio tincidunt euismod non elementum nunc. Donec ultrices massa quis volutpat porta. Nullam in luctus nunc. Aliquam feugiat justo in arcu posuere, eget blandit augue mollis. Donec aliquet eu velit ultrices tristique. Sed faucibus pretium nibh in pellentesque."
   },
   {
     "id": "1",
     "name": "Model",
     "price": 49.99,
-    "image": "President and CEO",
+    "image": "gnu-fb-head.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam maximus leo dictum risus dapibus congue. Curabitur euismod tempus efficitur. Pellentesque ullamcorper ligula eget orci mattis congue. Vestibulum porta enim mauris, in tincidunt tellus placerat non. Aenean sagittis erat et convallis dignissim. Integer eget porttitor mauris, id vestibulum ex. Ut tempor orci in sodales vehicula. Praesent quam sapien, ornare non metus vitae, tristique rutrum neque. Curabitur id turpis et odio tincidunt euismod non elementum nunc. Donec ultrices massa quis volutpat porta. Nullam in luctus nunc. Aliquam feugiat justo in arcu posuere, eget blandit augue mollis. Donec aliquet eu velit ultrices tristique. Sed faucibus pretium nibh in pellentesque."
   },
   {
     "id": "2",
     "name": "Model",
     "price": 32.99,
-    "image": "President and CEO",
+    "image": "flow.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam maximus leo dictum risus dapibus congue. Curabitur euismod tempus efficitur. Pellentesque ullamcorper ligula eget orci mattis congue. Vestibulum porta enim mauris, in tincidunt tellus placerat non. Aenean sagittis erat et convallis dignissim. Integer eget porttitor mauris, id vestibulum ex. Ut tempor orci in sodales vehicula. Praesent quam sapien, ornare non metus vitae, tristique rutrum neque. Curabitur id turpis et odio tincidunt euismod non elementum nunc. Donec ultrices massa quis volutpat porta. Nullam in luctus nunc. Aliquam feugiat justo in arcu posuere, eget blandit augue mollis. Donec aliquet eu velit ultrices tristique. Sed faucibus pretium nibh in pellentesque."
   },
   {
     "id": "3",
     "name": "Model",
     "price": 12.99,
-    "image": "President and CEO",
+    "image": "flow-merc.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam maximus leo dictum risus dapibus congue. Curabitur euismod tempus efficitur. Pellentesque ullamcorper ligula eget orci mattis congue. Vestibulum porta enim mauris, in tincidunt tellus placerat non. Aenean sagittis erat et convallis dignissim. Integer eget porttitor mauris, id vestibulum ex. Ut tempor orci in sodales vehicula. Praesent quam sapien, ornare non metus vitae, tristique rutrum neque. Curabitur id turpis et odio tincidunt euismod non elementum nunc. Donec ultrices massa quis volutpat porta. Nullam in luctus nunc. Aliquam feugiat justo in arcu posuere, eget blandit augue mollis. Donec aliquet eu velit ultrices tristique. Sed faucibus pretium nibh in pellentesque."
   },
   {
     "id": "4",
     "name": "Model",
     "price": 13.99,
-    "image": "President and CEO",
+    "image": "clone.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam maximus leo dictum risus dapibus congue. Curabitur euismod tempus efficitur. Pellentesque ullamcorper ligula eget orci mattis congue. Vestibulum porta enim mauris, in tincidunt tellus placerat non. Aenean sagittis erat et convallis dignissim. Integer eget porttitor mauris, id vestibulum ex. Ut tempor orci in sodales vehicula. Praesent quam sapien, ornare non metus vitae, tristique rutrum neque. Curabitur id turpis et odio tincidunt euismod non elementum nunc. Donec ultrices massa quis volutpat porta. Nullam in luctus nunc. Aliquam feugiat justo in arcu posuere, eget blandit augue mollis. Donec aliquet eu velit ultrices tristique. Sed faucibus pretium nibh in pellentesque."
   },
   {
     "id": "5",
     "name": "Model",
     "price": 99.99,
-    "image": "President and CEO",
+    "image": "capita.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam maximus leo dictum risus dapibus congue. Curabitur euismod tempus efficitur. Pellentesque ullamcorper ligula eget orci mattis congue. Vestibulum porta enim mauris, in tincidunt tellus placerat non. Aenean sagittis erat et convallis dignissim. Integer eget porttitor mauris, id vestibulum ex. Ut tempor orci in sodales vehicula. Praesent quam sapien, ornare non metus vitae, tristique rutrum neque. Curabitur id turpis et odio tincidunt euismod non elementum nunc. Donec ultrices massa quis volutpat porta. Nullam in luctus nunc. Aliquam feugiat justo in arcu posuere, eget blandit augue mollis. Donec aliquet eu velit ultrices tristique. Sed faucibus pretium nibh in pellentesque."
   },
   {
     "id": "6",
     "name": "Model",
     "price": 200.00,
-    "image": "President and CEO",
+    "image": "capita-birds.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam maximus leo dictum risus dapibus congue. Curabitur euismod tempus efficitur. Pellentesque ullamcorper ligula eget orci mattis congue. Vestibulum porta enim mauris, in tincidunt tellus placerat non. Aenean sagittis erat et convallis dignissim. Integer eget porttitor mauris, id vestibulum ex. Ut tempor orci in sodales vehicula. Praesent quam sapien, ornare non metus vitae, tristique rutrum neque. Curabitur id turpis et odio tincidunt euismod non elementum nunc. Donec ultrices massa quis volutpat porta. Nullam in luctus nunc. Aliquam feugiat justo in arcu posuere, eget blandit augue mollis. Donec aliquet eu velit ultrices tristique. Sed faucibus pretium nibh in pellentesque."
   },
   {
     "id": "7",
     "name": "Model",
     "price": 300.00,
-    "image": "President and CEO",
+    "image": "burton-descendant.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam maximus leo dictum risus dapibus congue. Curabitur euismod tempus efficitur. Pellentesque ullamcorper ligula eget orci mattis congue. Vestibulum porta enim mauris, in tincidunt tellus placerat non. Aenean sagittis erat et convallis dignissim. Integer eget porttitor mauris, id vestibulum ex. Ut tempor orci in sodales vehicula. Praesent quam sapien, ornare non metus vitae, tristique rutrum neque. Curabitur id turpis et odio tincidunt euismod non elementum nunc. Donec ultrices massa quis volutpat porta. Nullam in luctus nunc. Aliquam feugiat justo in arcu posuere, eget blandit augue mollis. Donec aliquet eu velit ultrices tristique. Sed faucibus pretium nibh in pellentesque."
   },
   {
     "id": "8",
     "name": "Model",
     "price": 91.99,
-    "image": "President and CEO",
+    "image": "burton-deja-vu.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam maximus leo dictum risus dapibus congue. Curabitur euismod tempus efficitur. Pellentesque ullamcorper ligula eget orci mattis congue. Vestibulum porta enim mauris, in tincidunt tellus placerat non. Aenean sagittis erat et convallis dignissim. Integer eget porttitor mauris, id vestibulum ex. Ut tempor orci in sodales vehicula. Praesent quam sapien, ornare non metus vitae, tristique rutrum neque. Curabitur id turpis et odio tincidunt euismod non elementum nunc. Donec ultrices massa quis volutpat porta. Nullam in luctus nunc. Aliquam feugiat justo in arcu posuere, eget blandit augue mollis. Donec aliquet eu velit ultrices tristique. Sed faucibus pretium nibh in pellentesque."
   },
   {
     "id": "9",
     "name": "Model",
     "price": 10.99,
-    "image": "President and CEO",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam maximus leo dictum risus dapibus congue. Curabitur euismod tempus efficitur. Pellentesque ullamcorper ligula eget orci mattis congue. Vestibulum porta enim mauris, in tincidunt tellus placerat non. Aenean sagittis erat et convallis dignissim. Integer eget porttitor mauris, id vestibulum ex. Ut tempor orci in sodales vehicula. Praesent quam sapien, ornare non metus vitae, tristique rutrum neque. Curabitur id turpis et odio tincidunt euismod non elementum nunc. Donec ultrices massa quis volutpat porta. Nullam in luctus nunc. Aliquam feugiat justo in arcu posuere, eget blandit augue mollis. Donec aliquet eu velit ultrices tristique. Sed faucibus pretium nibh in pellentesque."
-  },
-  {
-    "id": "10",
-    "name": "Model",
-    "price": 77.99,
-    "image": "President and CEO",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam maximus leo dictum risus dapibus congue. Curabitur euismod tempus efficitur. Pellentesque ullamcorper ligula eget orci mattis congue. Vestibulum porta enim mauris, in tincidunt tellus placerat non. Aenean sagittis erat et convallis dignissim. Integer eget porttitor mauris, id vestibulum ex. Ut tempor orci in sodales vehicula. Praesent quam sapien, ornare non metus vitae, tristique rutrum neque. Curabitur id turpis et odio tincidunt euismod non elementum nunc. Donec ultrices massa quis volutpat porta. Nullam in luctus nunc. Aliquam feugiat justo in arcu posuere, eget blandit augue mollis. Donec aliquet eu velit ultrices tristique. Sed faucibus pretium nibh in pellentesque."
-  },
-  {
-    "id": "11",
-    "name": "Model",
-    "price": 66.99,
-    "image": "President and CEO",
+    "image": "burton.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam maximus leo dictum risus dapibus congue. Curabitur euismod tempus efficitur. Pellentesque ullamcorper ligula eget orci mattis congue. Vestibulum porta enim mauris, in tincidunt tellus placerat non. Aenean sagittis erat et convallis dignissim. Integer eget porttitor mauris, id vestibulum ex. Ut tempor orci in sodales vehicula. Praesent quam sapien, ornare non metus vitae, tristique rutrum neque. Curabitur id turpis et odio tincidunt euismod non elementum nunc. Donec ultrices massa quis volutpat porta. Nullam in luctus nunc. Aliquam feugiat justo in arcu posuere, eget blandit augue mollis. Donec aliquet eu velit ultrices tristique. Sed faucibus pretium nibh in pellentesque."
   }
 ]

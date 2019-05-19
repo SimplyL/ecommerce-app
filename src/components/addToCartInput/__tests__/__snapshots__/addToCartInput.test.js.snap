@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddToCartInput component should render without crashing 1`] = `
+<InputContainer>
+  <AmountInput
+    onChange={[Function]}
+    type="number"
+    value={1}
+  />
+  <AddButton
+    onClick={[Function]}
+  >
+    Add to cart
+  </AddButton>
+</InputContainer>
+`;

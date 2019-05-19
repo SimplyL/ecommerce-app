@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChatWindow component should render without crashing 1`] = `
+<Container>
+  <ChatButton
+    onClick={[Function]}
+  >
+    +
+  </ChatButton>
+</Container>
+`;

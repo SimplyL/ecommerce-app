@@ -1,3 +1,31 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Navigation component renders without crashing 1`] = `ShallowWrapper {}`;
+exports[`Navigation component should render without crashing 1`] = `
+<NavigationContainer>
+  <Section>
+    <Menu>
+      <MenuItem>
+        <Link
+          to="/"
+        >
+          Home
+        </Link>
+      </MenuItem>
+      <MenuItem>
+        <Link
+          to="/cart"
+        >
+          <CartIcon
+            size={34}
+          />
+          <CartSizeContainer>
+            <CartSize>
+              2
+            </CartSize>
+          </CartSizeContainer>
+        </Link>
+      </MenuItem>
+    </Menu>
+  </Section>
+</NavigationContainer>
+`;

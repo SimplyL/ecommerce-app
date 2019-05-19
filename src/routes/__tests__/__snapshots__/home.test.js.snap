@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home page should render without crashing 1`] = `
+<Fragment>
+  <Title
+    name="Browse products"
+  />
+  <ProductList>
+    <ProductItem
+      key="0"
+      product={
+        Object {
+          "description": "Test description",
+          "id": "0",
+          "image": "roxy-sugar-banana.jpg",
+          "name": "Model",
+          "price": 4.99,
+        }
+      }
+    />
+    <ProductItem
+      key="1"
+      product={
+        Object {
+          "description": "Test",
+          "id": "1",
+          "image": "gnu-fb-head.jpg",
+          "name": "Model",
+          "price": 49.99,
+        }
+      }
+    />
+  </ProductList>
+</Fragment>
+`;

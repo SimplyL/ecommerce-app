@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CartItem component should render without crashing 1`] = `
+<CartItemContainer
+  isLeft={true}
+>
+  <ImageContainer>
+    <Image
+      alt="img"
+      src="test-file-stub"
+    />
+  </ImageContainer>
+  <CartItemContent>
+    <Title>
+      Model
+    </Title>
+    <CartItemDetails>
+      <PairContainer>
+        <Label>
+          Item price:
+        </Label>
+        <styled.span>
+          4.99
+          <span>
+             €
+          </span>
+        </styled.span>
+      </PairContainer>
+      <PairContainer>
+        <Label>
+          Quantity:
+        </Label>
+        <styled.span />
+      </PairContainer>
+      <PairContainer>
+        <Label>
+          Full price:
+        </Label>
+        <styled.span>
+          NaN
+          <span>
+             €
+          </span>
+        </styled.span>
+      </PairContainer>
+      <RemoveButton
+        onClick={[Function]}
+      >
+        Remove item
+      </RemoveButton>
+    </CartItemDetails>
+  </CartItemContent>
+</CartItemContainer>
+`;
+
+exports[`ProductDescription component should render without crashing 1`] = `
+<DescriptionContainer>
+  <ImageContainer>
+    <Image
+      alt="img"
+      src="test-file-stub"
+    />
+  </ImageContainer>
+  <styled.div>
+    <Title>
+      Model
+    </Title>
+    <InputContainer>
+      <PriceLabel>
+        4.99
+         €
+      </PriceLabel>
+      <AddToCartInput
+        id="0"
+      />
+    </InputContainer>
+    <Description>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    </Description>
+  </styled.div>
+</DescriptionContainer>
+`;
+
+exports[`ProductItem component should render without crashing 1`] = `
+<Container>
+  <ImageContainer>
+    <Image
+      alt="img"
+      src="test-file-stub"
+    />
+  </ImageContainer>
+  <HyperLink
+    to="/product/0"
+  >
+    Model
+  </HyperLink>
+  <PriceLabel>
+    4.99
+     €
+  </PriceLabel>
+  <ConnectFunction
+    id="0"
+  />
+</Container>
+`;

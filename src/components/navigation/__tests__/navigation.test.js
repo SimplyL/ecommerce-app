@@ -4,13 +4,22 @@ import Navigation from '../index';
 import PATHS from '../../../constants/paths';
 
 describe('Navigation component', () => {
-  const wrapper = shallow(<Navigation paths={PATHS}/>);
+  let wrapper;
 
-  it('renders without crashing', () => {
+  beforeEach(() => {
+    wrapper = shallow(<Navigation paths={PATHS} cartSize={2} />);
+  });
+
+  it('should render without crashing', () => {
     expect(wrapper).toMatchSnapshot();
   });
 
-  it('renders navigation with correct number of items', () => {
+  it('should render navigation with correct number of items', () => {
     expect(wrapper.find('MenuItem')).toHaveLength(2);
+  });
+
+  it('should update cart size', () => {
+    wrapper.setProps({ cartSize: 4 });
+    expect(wrapper.find('CartSize').text()).toEqual('4');
   });
 });
